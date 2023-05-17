@@ -1,11 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
-
-
-
 # Simple Linear Regression
 
 Simple linear regression is used to estimate the relationship between two quantitative variables.
@@ -61,6 +53,18 @@ regressor_OLS.summary()
 ### Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
 
 ## That’s it. The highest impact variable
+
+
+# Polynomial Regression
+
+Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial
+
+## Need for Polynomial Regression:
+
+If we apply a linear model on a linear dataset, then it provides us a good result as we have seen in Simple Linear Regression, but if we apply the same model without any modification on a non-linear dataset, then it will produce a drastic output. Due to which loss function will increase, the error rate will be high, and accuracy will be decreased.
+So for such cases, where data points are arranged in a non-linear fashion, we need the Polynomial Regression model. We can understand it in a better way using the below comparison diagram of the linear dataset and non-linear dataset.
+
+![](Screenshot/simple_linear_regression/polynomial.PNG)
 
 
 
