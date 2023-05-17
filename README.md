@@ -12,7 +12,7 @@ In the above plot, we can see the real values observations in green dots and pre
 
 The good fit of the line can be observed by calculating the difference between actual values and predicted values. But as we can see in the above plot, most of the observations are close to the regression line, hence our model is good for the training set.
 
-![](Screenshot/simple linear regression/Salary vs Experiences for test set.PNG)
+![](Screenshot/simple_linear_regression/test.PNG)
 
 In the above plot, there are observations given by the blue color, and prediction is given by the red regression line. As we can see, most of the observations are close to the regression line, hence we can say our Simple Linear Regression is a good model and able to make good predictions.
 
