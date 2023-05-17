@@ -1,7 +1,14 @@
 
+# Project Title
+
+A brief description of what this project does and who it's for
+
+
+
+
 # Simple Linear Regression
 
-Simple Linear Regression is a type of Regression algorithms that models the relationship between a dependent variable and a single independent variable. It is a statistical method that allows us to summarize and study relationships between two continuous (quantitative) variables.
+Simple linear regression is used to estimate the relationship between two quantitative variables.
 
 ### Simple linear regression example
 You are a social researcher interested in the relationship between income and happiness. You survey 500 people whose incomes range from 15k to 75k and ask them to rank their happiness on a scale from 1 to 10.
@@ -16,4 +23,45 @@ The good fit of the line can be observed by calculating the difference between a
 ![](Screenshot/simple_linear_regression/test.PNG)
 
 In the above plot, there are observations given by the blue color, and prediction is given by the red regression line. As we can see, most of the observations are close to the regression line, hence we can say our Simple Linear Regression is a good model and able to make good predictions.
+
+
+# Multiple Linear Regression
+Multiple Linear Regression is one of the important regression algorithms which models the linear relationship between a single dependent continuous variable and more than one independent variable.
+
+In this piece, I am going to introduce the Multiple Linear Regression Model. Our problem is about modeling how R&D, administration, and marketing spendings and the state will influence the profit of a company. There are 50 startups data in our dataset.
+
+```bash
+x_opt=x[:,[0,1,2,3]]#copy the index 0 to 3 from x in x_opt
+regressor_OLS=sm.OLS(endog=y,exog=x_opt.astype(float)).fit()
+regressor_OLS.summary()
+```
+
+![](Screenshot/simple_linear_regression/MLP1.PNG)
+
+### Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
+
+```bash
+x_opt=x[:,[0,1,2]]#copy the index 0 to 2 from x in x_opt
+regressor_OLS=sm.OLS(endog=y,exog=x_opt.astype(float)).fit()
+regressor_OLS.summary()
+```
+
+![](Screenshot/simple_linear_regression/MLP2.PNG)
+
+### Look at the highest p-values and remove it. In this condition x1(first  dummy variable has the highest one (0.020)
+
+```bash
+x_opt=x[:,[0,2]]#copy the index 0 to 3 from x in x_opt
+regressor_OLS=sm.OLS(endog=y,exog=x_opt.astype(float)).fit()
+regressor_OLS.summary()
+```
+
+![](Screenshot/simple_linear_regression/MLP3.PNG)
+
+### Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
+
+## That’s it. The highest impact variable
+
+
+
 
