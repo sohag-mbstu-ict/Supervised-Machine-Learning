@@ -6,7 +6,7 @@ Simple linear regression is used to estimate the relationship between two quanti
 You are a social researcher interested in the relationship between income and happiness. You survey 500 people whose incomes range from 15k to 75k and ask them to rank their happiness on a scale from 1 to 10.
 Your independent variable (income) and dependent variable (happiness) are both quantitative, so you can do a regression analysis to see if there is a linear relationship between them.
 
-![] (https://sohag-mbstu-ict/Supervised-Machine-Learning/Screenshot/simple_linear_regression/train.PNG)
+![] (https://github.com/sohag-mbstu-ict/Supervised-Machine-Learning/Screenshot/simple_linear_regression/train.PNG)
 
 In the above plot, we can see the real values observations in green dots and predicted values are covered by the red regression line. The regression line shows a correlation between the dependent and independent variable.
 
