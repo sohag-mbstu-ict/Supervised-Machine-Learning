@@ -2,14 +2,8 @@
 # Simple Linear Regression
 
 Simple Linear Regression is a type of Regression algorithms that models the relationship between a dependent variable and a single independent variable. It is a statistical method that allows us to summarize and study relationships between two continuous (quantitative) variables.
-The formula for a simple linear regression is:
 
-y = {\beta_0} + {\beta_1{X}} + {\epsilon}
-y is the predicted value of the dependent variable (y) for any given value of the independent variable (x).
-B0 is the intercept, the predicted value of y when the x is 0.
-B1 is the regression coefficient – how much we expect y to change as x increases.
-x is the independent variable ( the variable we expect is influencing y).
-e is the error of the estimate, or how much variation there is in our estimate of the regression coefficient.
+![](Screenshot/simple_linear_regression/linear_eq.PNG)
 
 ### Simple linear regression example
 You are a social researcher interested in the relationship between income and happiness. You survey 500 people whose incomes range from 15k to 75k and ask them to rank their happiness on a scale from 1 to 10.
