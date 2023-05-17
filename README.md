@@ -30,7 +30,7 @@ regressor_OLS.summary()
 
 ![](Screenshot/simple_linear_regression/MLP1.PNG)
 
-### Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
+Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
 
 ```bash
 x_opt=x[:,[0,1,2]]#copy the index 0 to 2 from x in x_opt
@@ -40,7 +40,7 @@ regressor_OLS.summary()
 
 ![](Screenshot/simple_linear_regression/MLP2.PNG)
 
-### Look at the highest p-values and remove it. In this condition x1(first  dummy variable has the highest one (0.020)
+Look at the highest p-values and remove it. In this condition x1(first  dummy variable has the highest one (0.020)
 
 ```bash
 x_opt=x[:,[0,2]]#copy the index 0 to 3 from x in x_opt
@@ -50,7 +50,7 @@ regressor_OLS.summary()
 
 ![](Screenshot/simple_linear_regression/MLP3.PNG)
 
-### Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
+Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
 
 That’s it. The highest impact variable
 
