@@ -67,5 +67,40 @@ So for such cases, where data points are arranged in a non-linear fashion, we ne
 ![](Screenshot/simple_linear_regression/polynomial.PNG)
 
 
+# Decision Tree Classification Algorithm
+
+Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
+
+It is called a decision tree because, similar to a tree, it starts with the root node, which expands on further branches and constructs a tree-like structure.
+
+### Attribute Selection Measures
+If the dataset consists of N attributes then deciding which attribute to place at the root or at different levels of the tree as internal nodes is a complicated step. By just randomly selecting any node to be the root can’t solve the issue. If we follow a random approach, it may give us bad results with low accuracy.
+For solving this attribute selection problem, researchers worked and devised some solutions. They suggested using some criteria like :
+
+Entropy,
+
+Information gain,
+
+Gini index,
+
+Gain Ratio,
+
+Reduction in Variance
+
+Chi-Square
+
+### Entropy
+Entropy is an information theory metric that measures the impurity or uncertainty in a group of observations. It determines how a decision tree chooses to split data.
+
+### Information Gain
+We can define information gain as a measure of how much information a feature provides about a class. Information gain helps to determine the order of attributes in the nodes of a decision tree.
+
+The main node is referred to as the parent node, whereas sub-nodes are known as child nodes. We can use information gain to determine how good the splitting of nodes in a decision tree.
+
+### Using Information Gain to Build Decision Trees
+
+![](Screenshot/simple_linear_regression/DTC.PNG)
+
+
 
 
