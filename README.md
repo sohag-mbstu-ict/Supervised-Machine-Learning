@@ -1,4 +1,11 @@
 
+# Project Title
+
+A brief description of what this project does and who it's for
+
+
+
+
 # Simple Linear Regression
 
 Simple linear regression is used to estimate the relationship between two quantitative variables.
@@ -23,23 +30,38 @@ Multiple Linear Regression is one of the important regression algorithms which m
 
 In this piece, I am going to introduce the Multiple Linear Regression Model. Our problem is about modeling how R&D, administration, and marketing spendings and the state will influence the profit of a company. There are 50 startups data in our dataset.
 
-## regressor_OLS.summary() is shown below
+```bash
+x_opt=x[:,[0,1,2,3]]#copy the index 0 to 3 from x in x_opt
+regressor_OLS=sm.OLS(endog=y,exog=x_opt.astype(float)).fit()
+regressor_OLS.summary()
+```
 
 ![](Screenshot/simple_linear_regression/MLP1.PNG)
 
-## Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
+### Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
 
-## regressor_OLS.summary() is shown below
+```bash
+x_opt=x[:,[0,1,2]]#copy the index 0 to 2 from x in x_opt
+regressor_OLS=sm.OLS(endog=y,exog=x_opt.astype(float)).fit()
+regressor_OLS.summary()
+```
 
 ![](Screenshot/simple_linear_regression/MLP2.PNG)
 
-## Look at the highest p-values and remove it. In this condition x1(first  dummy variable has the highest one (0.020)
+### Look at the highest p-values and remove it. In this condition x1(first  dummy variable has the highest one (0.020)
 
-## regressor_OLS.summary() is shown below
+```bash
+x_opt=x[:,[0,2]]#copy the index 0 to 3 from x in x_opt
+regressor_OLS=sm.OLS(endog=y,exog=x_opt.astype(float)).fit()
+regressor_OLS.summary()
+```
 
 ![](Screenshot/simple_linear_regression/MLP3.PNG)
 
-## Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
+### Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
 
 ## That’s it. The highest impact variable
+
+
+
 
