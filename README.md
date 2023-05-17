@@ -52,7 +52,7 @@ regressor_OLS.summary()
 
 ### Look at the highest p-values and remove it. In this condition x3(third  dummy variable has the highest one (0.767)
 
-## That’s it. The highest impact variable
+That’s it. The highest impact variable
 
 
 # Polynomial Regression
