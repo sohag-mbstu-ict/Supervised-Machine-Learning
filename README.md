@@ -1,7 +1,7 @@
 
 # Simple Linear Regression
 
-Simple linear regression is used to estimate the relationship between two quantitative variables.
+Simple Linear Regression is a type of Regression algorithms that models the relationship between a dependent variable and a single independent variable. It is a statistical method that allows us to summarize and study relationships between two continuous (quantitative) variables.
 ### Simple linear regression example
 You are a social researcher interested in the relationship between income and happiness. You survey 500 people whose incomes range from 15k to 75k and ask them to rank their happiness on a scale from 1 to 10.
 Your independent variable (income) and dependent variable (happiness) are both quantitative, so you can do a regression analysis to see if there is a linear relationship between them.
