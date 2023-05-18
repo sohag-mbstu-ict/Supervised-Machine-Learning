@@ -230,4 +230,50 @@ Polynomial Kernel
 
  In the output of training set, we got the straight line as hyperplane because we have used a linear kernel in the classifier. And we have also known that for the 2d space, the hyperplane in SVM is a straight line.
 
- As we can see in the above output image, the SVM classifier has divided the users into two regions (Purchased or Not purchased). Users who purchased the SUV are in the red region with the red scatter points. And users who did not purchase the car are in the green region with green scatter points. The hyperplane has divided the two classes into Purchased and not purchased variable.
+ As we can see in the above output image, the SVM classifier has divided the users into two regions (Purchased or Not purchased). Users who purchased the car are in the red region with the red scatter points. And users who did not purchase the car are in the green region with green scatter points. The hyperplane has divided the two classes into Purchased and not purchased variable.
+ 
+ #
+ 
+# Naive Bayes Classifier
+
+Naïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems. It is a probabilistic classifier, which means it predicts on the basis of the probability of an object. Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental analysis, and classifying articles.
+
+#### Why is it called Naïve Bayes?
+
+Naïve: It is called Naïve because it assumes that the occurrence of a certain feature is independent of the occurrence of other features. Such as if the fruit is identified on the bases of color, shape, and taste, then red, spherical, and sweet fruit is recognized as an apple. Hence each feature individually contributes to identify that it is an apple without depending on each other.
+
+Bayes: It is called Bayes because it depends on the principle of Bayes' Theorem.
+
+#### Bayes' Theorem:
+![](Screenshot/naive_eq.PNG)
+
+P(A|B) is Posterior probability: Probability of hypothesis A on the observed event B.
+
+P(B|A) is Likelihood probability: Probability of the evidence given that the probability of a hypothesis is true.
+
+P(A) is Prior Probability: Probability of hypothesis before observing the evidence.
+
+P(B) is Marginal Probability: Probability of Evidence.
+
+#### Working of Naïve Bayes' Classifier:
+Convert the given dataset into frequency tables.
+
+Generate Likelihood table by finding the probabilities of given features.
+
+Now, use Bayes theorem to calculate the posterior probability.
+
+#### Types of Naïve Bayes Model:
+There are three types of Naive Bayes Model, which are given below:
+
+Gaussian
+
+Multinomial
+
+Bernoulli
+
+![](Screenshot/naive.PNG)
+
+The above output is final output for test set data. As we can see the classifier has created a Gaussian curve to divide the "purchased" and "not purchased" variables. As we can see in the above output image, the Naive Bayes classifier has divided the users into two regions (Purchased or Not purchased). Users who purchased the car are in the red region with the red scatter points. And users who did not purchase the car are in the green region with green scatter points. The hyperplane has divided the two classes into Purchased and not purchased variable.
+
+There are some wrong predictions which we have calculated in Confusion matrix. But still it is pretty good classifier.
+
