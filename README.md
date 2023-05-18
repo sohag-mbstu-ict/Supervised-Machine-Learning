@@ -1,3 +1,4 @@
+
 # Simple Linear Regression
 
 Simple linear regression is used to estimate the relationship between two quantitative variables.
@@ -54,7 +55,7 @@ Look at the highest p-values and remove it. In this condition x3(third  dummy va
 
 That’s it. The highest impact variable
 
-
+#
 # Polynomial Regression
 
 Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial
@@ -66,7 +67,7 @@ So for such cases, where data points are arranged in a non-linear fashion, we ne
 
 ![](Screenshot/simple_linear_regression/polynomial.PNG)
 
-
+#
 # Logistic Regression Model
 
 Logistic Regression is used for predicting the categorical dependent variable using a given set of independent variables. Logistic Regression is much similar to the Linear Regression except that how they are used. Linear Regression is used for solving Regression problems, whereas Logistic regression is used for solving the classification problems. In Logistic regression, instead of fitting a regression line, we fit an "S" shaped logistic function, which predicts two maximum values (0 or 1).
@@ -88,7 +89,7 @@ On the other hand The green point observations are for which purchased (dependen
 
 But there are some purple points in the green region (Buying the car) and some green points in the red region(Not buying the car). So we can say that younger users with a high estimated salary purchased the car, whereas an older user with a low estimated salary did not purchase the car.
 
-
+#
 # Decision Tree Classification Algorithm
 
 Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
