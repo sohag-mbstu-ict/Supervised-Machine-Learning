@@ -160,6 +160,7 @@ The above image is the visualization result for the test set. We can check that 
 
 #
 
+
 # Support Vector Machine Algorithm
 Support Vector Machine or SVM is one of the most popular Supervised Learning algorithms, which is used for Classification as well as Regression problems. However, primarily, it is used for Classification problems in Machine Learning.
 
@@ -169,15 +170,18 @@ SVM chooses the extreme points/vectors that help in creating the hyperplane. The
 
 Example: SVM can be understood with the example that we have used in the KNN classifier. Suppose we see a strange cat that also has some features of dogs, so if we want a model that can accurately identify whether it is a cat or dog, so such a model can be created by using the SVM algorithm. We will first train our model with lots of images of cats and dogs so that it can learn about different features of cats and dogs, and then we test it with this strange creature. So as support vector creates a decision boundary between these two data (cat and dog) and choose extreme cases (support vectors), it will see the extreme case of cat and dog. On the basis of the support vectors, it will classify it as a cat.
 
+#### Major Kernel Functions in Support Vector Machine (SVM
+
+Gaussian Kernel
+
+Gaussian Kernel Radial Basis Function (RBF)
+
+Sigmoid Kernel
+
+Polynomial Kernel
+
 ![](Screenshot/simple_linear_regression/SVm.PNG)
 
  In the output of training set, we got the straight line as hyperplane because we have used a linear kernel in the classifier. And we have also known that for the 2d space, the hyperplane in SVM is a straight line.
 
  As we can see in the above output image, the SVM classifier has divided the users into two regions (Purchased or Not purchased). Users who purchased the SUV are in the red region with the red scatter points. And users who did not purchase the car are in the green region with green scatter points. The hyperplane has divided the two classes into Purchased and not purchased variable.
-
-
-
-
-
-
-
