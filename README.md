@@ -226,7 +226,7 @@ Sigmoid Kernel
 Polynomial Kernel
 
 ![](Screenshot/SVm.PNG)
-![](Screenshot/SVM_Kernel_(RBF).PNG)
+![](Screenshot/SVM_Kerne_(RBF).PNG)
 
  In the output of training set, we got the straight line as hyperplane because we have used a linear kernel in the classifier. And we have also known that for the 2d space, the hyperplane in SVM is a straight line.
 
