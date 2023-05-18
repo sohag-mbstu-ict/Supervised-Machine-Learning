@@ -67,6 +67,28 @@ So for such cases, where data points are arranged in a non-linear fashion, we ne
 ![](Screenshot/simple_linear_regression/polynomial.PNG)
 
 
+# Logistic Regression Model
+
+Logistic Regression is used for predicting the categorical dependent variable using a given set of independent variables. Logistic Regression is much similar to the Linear Regression except that how they are used. Linear Regression is used for solving Regression problems, whereas Logistic regression is used for solving the classification problems. In Logistic regression, instead of fitting a regression line, we fit an "S" shaped logistic function, which predicts two maximum values (0 or 1).
+
+Type of Logistic Regression:
+
+
+Binomial: In binomial Logistic regression, there can be only two possible types of the dependent variables, such as 0 or 1, Pass or Fail, etc.
+
+Multinomial: In multinomial Logistic regression, there can be 3 or more possible unordered types of the dependent variable, such as "cat", "dogs", or "sheep"
+
+Ordinal: In ordinal Logistic regression, there can be 3 or more possible ordered types of dependent variables, such as "low", "Medium", or "High".
+
+![](Screenshot/simple_linear_regression/LG.PNG)
+
+The red point observations are for which purchased (dependent variable) is probably 0, i.e., users who did not purchase the car.
+
+On the other hand The green point observations are for which purchased (dependent variable) is probably 1 means user who purchased the car.
+
+But there are some purple points in the green region (Buying the car) and some green points in the red region(Not buying the car). So we can say that younger users with a high estimated salary purchased the car, whereas an older user with a low estimated salary did not purchase the car.
+
+
 # Decision Tree Classification Algorithm
 
 Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
