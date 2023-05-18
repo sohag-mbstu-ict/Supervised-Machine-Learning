@@ -125,4 +125,40 @@ The main node is referred to as the parent node, whereas sub-nodes are known as 
 
 
 
+# Random Forest Algorithm
+
+Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique. It can be used for both Classification and Regression problems in ML. It is based on the concept of ensemble learning, which is a process of combining multiple classifiers to solve a complex problem and to improve the performance of the model.
+
+#### Assumptions for Random Forest
+
+There should be some actual values in the feature variable of the dataset so that the classifier can predict accurate results rather than a guessed result.
+
+The predictions from each tree must have very low correlations.
+
+The Working process can be explained in the below steps and diagram:
+
+Step-1: Select random K data points from the training set.
+
+Step-2: Build the decision trees associated with the selected data points (Subsets).
+
+Step-3: Choose the number N for decision trees that you want to build.
+
+Step-4: Repeat Step 1 & 2.
+
+Step-5: For new data points, find the predictions of each decision tree, and assign the new data points to the category that wins the majority votes
+
+Example: Suppose there is a dataset that contains multiple fruit images. So, this dataset is given to the Random forest classifier. The dataset is divided into subsets and given to each decision tree. During the training phase, each decision tree produces a prediction result, and when a new data point occurs, then based on the majority of results, the Random Forest classifier predicts the final decision. 
+
+![](Screenshot/simple_linear_regression/RF.PNG)
+
+The red region is classified for the users who did not purchase the car, and the green region is for the users who purchased the car.
+
+So, in the Random Forest classifier, we have taken 10 trees that have predicted Yes or NO for the Purchased variable. The classifier took the majority of the predictions and provided the result.
+
+The above image is the visualization result for the test set. We can check that there is a minimum number of incorrect predictions (8) without the Overfitting issue. We will get different results by changing the number of trees in the classifier.
+
+
+
+
+
 
