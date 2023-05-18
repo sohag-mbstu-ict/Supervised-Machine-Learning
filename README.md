@@ -123,7 +123,7 @@ The main node is referred to as the parent node, whereas sub-nodes are known as 
 
 ![](Screenshot/simple_linear_regression/DTC.PNG)
 
-
+#
 
 # Random Forest Algorithm
 
